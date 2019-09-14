@@ -20,23 +20,23 @@ var animal = {
   },
   ojos: {
     tamaño: "2cm",
-    color: "verder",
-    mirar() {
-      console.log("estoy mirando");
-    }
+    color: "verder"
   }
 };
 
 animal.saludar();
-animal.ojos.mirar();
 
 name = "ricardo";
 
-function saludar() {
-  console.log("hola soy " + animal.nombre);
+a = {
+  nombre: "sadsdsad"
+};
+// obetener stributos de un objeto en una funcion
+function saludar({ nombre }) {
+  console.log("hola soy " + nombre);
 }
 
-saludar();
+saludar(a);
 
 function saludar2(name) {
   name = name;
