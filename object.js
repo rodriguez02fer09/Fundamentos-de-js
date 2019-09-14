@@ -32,7 +32,9 @@ a = {
   nombre: "sadsdsad"
 };
 // obetener stributos de un objeto en una funcion
-function saludar({ nombre }) {
+function saludar(objeto) {
+  // vat nonbre = objecto.nombre
+  var { nombre } = objeto;
   console.log("hola soy " + nombre);
 }
 
