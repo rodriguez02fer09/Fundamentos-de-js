@@ -29,10 +29,14 @@ if (antury.esAlta()) {
   console.log(`${antury.nombre} no es alto`);
 }
 
-// function Persona(nombre, apellido, altura) {
+// function Persona(nombre) {
 //     this.nombre = nombre;
 //
 // }
+
+// Persona.prototype.saludar = function () {
+//     console.log(`Hola, me llamo ${this.nombre}${this.apellido}`);
+// };
 
 class Persona2 {
   constructor(name) {
@@ -40,7 +44,7 @@ class Persona2 {
   }
 
   saludar() {
-    console.log("hola " + this.name);
+    console.log("hola ..." + this.name);
   }
 }
 
@@ -48,3 +52,6 @@ var richard = new Persona2("richard");
 richard.saludar();
 
 class Persona3 extends Persona2 {}
+
+fernanda = new Persona3("fernanda");
+fernanda.saludar();
