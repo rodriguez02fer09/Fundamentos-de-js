@@ -7,6 +7,7 @@ function saludar() {
 
 saludar();
 
+
 //varible local
 function saludar2(name) {
   name = name;
@@ -14,3 +15,5 @@ function saludar2(name) {
 }
 
 saludar2("fernanda");
+
+
